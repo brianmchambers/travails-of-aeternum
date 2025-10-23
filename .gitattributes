@@ -1,0 +1,34 @@
+# Auto-detect text files and normalize to LF by default
+* text=auto eol=lf
+
+# Force LF for common text/script files
+*.sh text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+LICENSE text eol=lf
+README.md text eol=lf
+
+# PowerShell scripts: prefer CRLF on Windows (but allow LF too)
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.so binary
+
+# C# source helpful for diffs
+*.cs diff=csharp
+
+# Mark lockfiles as text
+package-lock.json text
+yarn.lock text
