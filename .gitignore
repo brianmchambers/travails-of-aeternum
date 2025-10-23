@@ -1,0 +1,70 @@
+# Visual Studio, Rider, VS Code
+.vs/
+.idea/
+.vscode/
+
+# Build outputs
+**/bin/
+**/obj/
+**/publish/
+
+# User-specific
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# NuGet packages and npm/yarn temp files
+packages/
+*.nupkg
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs: keep ai/chat-history.log in the repo, but ignore other logs
+*.log
+!ai/chat-history.log
+
+# Secrets and certificates
+.env
+.env.local
+secrets.json
+*.pfx
+*.key
+*.pem
+*.jks
+
+# MonoGame / content pipeline (keep source mgcb files, ignore intermediate build artifacts)
+*.mgcb.user
+*.mgcb.tmp
+
+# Test runner and coverage outputs
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Archives and packages
+*.zip
+*.tar.gz
+*.7z
+
+# Generated website publish from client builds (the source client project should not be tracked)
+# We ignore published outputs under src project build folders; top-level /website/ is intended to be tracked as the static export
+src/**/bin/
+src/**/obj/
+
+# Optional editors
+*.sublime-workspace
+*.sublime-project
