@@ -1,0 +1,17 @@
+# Minimal placeholder CI workflow.
+# Runs only when manually triggered (workflow_dispatch) so it won't run on pushes or send notifications.
+name: CI - Placeholder
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  noop:
+    name: No-op placeholder job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo "This is a placeholder CI workflow. No actions are performed."
