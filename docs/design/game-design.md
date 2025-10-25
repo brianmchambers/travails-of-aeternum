@@ -1,7 +1,7 @@
-# Travails of Æternum — One‑Page Design Summary (Binding Atrium Vertical Slice)
+# Travails of AEternum — One‑Page Design Summary (Binding Atrium Vertical Slice)
 
 ## Elevator pitch
-Travails of Æternum is a retro SNES‑style JRPG where a demon‑born heroine frees and recruits created beings, then uses a tactical pact‑exchange combat system — swap, steal, and fuse god‑granted powers — to turn the pantheon’s gifts back on their makers. It’s a bittersweet, choice‑driven story about reclaiming agency and accepting the cost of power.
+Travails of AEternum is a retro SNES‑style JRPG where a demon‑born heroine frees and recruits created beings, then uses a tactical pact‑exchange combat system — swap, steal, and fuse god‑granted powers — to turn the pantheon’s gifts back on their makers. It’s a bittersweet, choice‑driven story about reclaiming agency and accepting the cost of power.
 
 ## Key features
 - Pact‑Exchange Combat (mechanical hook): deterministic Swap, temporary Steal, and limited Fuse rules that reassign and remix enemy/ally abilities in turn‑based battles.
@@ -56,5 +56,5 @@ Recommended secondary options:
 ---
 
 Owner: brianmchambers  
-Repo: Travails of Æternum  
+Repo: Travails of AEternum  
 Sprint target: v0.1‑binding‑atrium (vertical slice)
